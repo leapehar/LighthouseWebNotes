@@ -8,6 +8,14 @@ To help you figure out how to use `hungry` and `availableTime` inside your funct
 
 
 ```javascript
+function whatToDoForLunch(hungry, availableTime) {
+  console.log("hungry is", hungry);
+  console.log("availableTime is", availableTime);
+}
+```
+
+
+```javascript
 const whatToDoForLunch = function(hungry, availableTime) {
 
   if (hungry) {
